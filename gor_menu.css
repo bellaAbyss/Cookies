@@ -1,0 +1,57 @@
+/*Горизонтальное меню в верхней части сайта*/
+#menu {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	font-size: 100%;
+	font-family:"Monotype Corsiva",serif; 
+	font-style: bold;
+	}
+#menu li {
+	list-style: none;
+	float: left;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	width: 20%;
+	text-align: center;
+	background: #8B4513;
+	position: relative;
+	padding-top: 12px; 
+	}
+#menu li ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 52px;
+	}
+#menu li ul li {
+	float: none;
+	height: 40px;
+	margin: 0;
+	width: auto;
+	text-align: center;
+	background: #CD853F;
+	padding-top: 12px;
+	}
+#menu li a {
+	display: block;
+	width: auto;
+	height: 40px;
+	color: #fff;
+	text-decoration: none;
+	}
+
+#menu li:hover ul, #menu li.hover ul
+ {
+	display: block;
+}
+#menu li:hover, #menu li.hover
+ {
+	background: #CD853F;
+}
