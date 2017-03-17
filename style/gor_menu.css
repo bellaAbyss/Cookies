@@ -6,19 +6,18 @@
 	padding: 0;
 	font-size: 100%;
 	font-family:"Monotype Corsiva",serif; 
-	font-style: bold;
+	font-weight: bold;
 	}
 #menu li {
 	list-style: none;
 	float: left;
 	height: 40px;
-	padding: 0;
+	padding: 12px 0 0 0;
 	margin: 0;
 	width: 20%;
 	text-align: center;
 	background: #8B4513;
 	position: relative;
-	padding-top: 12px; 
 	}
 #menu li ul {
 	list-style: none;

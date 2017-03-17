@@ -1,15 +1,15 @@
 #snowflakeContainer 
 {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
 }
 .snowflake
 {
     padding-left: 15px;
     font-family: Cambria, Georgia, serif;
     font-size: 14px;
-	font-style: bold;
+	font-weight: bold;
     line-height: 24px;
     position: fixed;
     color: #8B4513;
